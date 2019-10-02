@@ -58,7 +58,17 @@ p.lead {
     text-align: center;
     font-size: 1.5rem;
     line-height: 3.5rem;
-    margin-right: 1rem
+    /* align-items: center */
+    /* margin-left: 4rem */
+    /* padding-inline-start: 10px; */
+}
+
+.inline-List {
+    list-style-type: none;
+}
+
+.inline-List li {
+    display: inline;
 }
 
 .social-icons a:last-child {
@@ -66,7 +76,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-    background-color: #062121
+    background-color: #381677
 }
 
 .dev-icons {
@@ -101,7 +111,7 @@ p.lead {
     #sideNav .navbar-brand {
         display: flex;
         margin: auto auto 0;
-        padding: .5rem
+        padding: .01rem
     }
     #sideNav .navbar-brand .img-profile {
         max-width: 10rem;
